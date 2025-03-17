@@ -31,7 +31,7 @@ const Main = () => {
         { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
         { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
       ],
-      link: 'https://blogs-site-amcn.vercel.app',
+      link: 'https://blogs-site-amcn.vercel.app/',
       image: '/portfolio6.webp'
     }
   ]
