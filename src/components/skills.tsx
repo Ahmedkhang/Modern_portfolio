@@ -13,7 +13,7 @@ export const Skills = () => {
     { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", proficiency: 50 },
     { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", proficiency: 80 },
     { name: "React", logo: "/react-original.svg", proficiency: 85 },
-    { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", proficiency: 90 },
+    { name: "Tailwind", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", proficiency: 90 },
     { name: "ShadCN", logo: "/shadcn.jpg", proficiency: 70 },
     { name: "GitHub", logo: "/github.svg", proficiency: 75 },
     { name: "Sanity", logo: "/sanity.webp", proficiency: 65 },
@@ -84,8 +84,23 @@ export const Skills = () => {
                                    />
                                    
               </motion.div>
-              <p className='text-content text-center mb-3 font-bold'>{items.proficiency}%</p>
-              <p className='text-content text-center font-bold mb-3'>{items.name}</p>
+              <motion.p 
+              initial={{
+                opacity:0,
+                x:0
+              }}
+              whileInView={{
+                opacity:1,
+                x:62
+              }}
+              transition={{
+                duration:0.6,
+                delay:0.4
+              }}
+              className='text-content  mb-3 font-bold'>{items.proficiency}%</motion.p>
+              <p
+              
+               className='text-content text-center font-bold mb-3'>{items.name}</p>
                             </motion.div>
             ))
            }

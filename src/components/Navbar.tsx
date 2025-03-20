@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { RiMenu3Fill } from "react-icons/ri";
 import { MdOutlineCancel } from "react-icons/md";
 import React, { useState } from 'react'
+import Image from 'next/image'
 
 import { CiMenuFries } from "react-icons/ci";
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
@@ -21,7 +22,7 @@ function Navbar() {
   const navItems = [
     {name:'Projects', link:'#projects'},
     {name:'Skills',link:'#skills'},
-    {name:'Experience',link:'#experience'},
+    {name:'About',link:'#about'},
     {name:'Contact',link:'#contact'},
   ]
   const Links = {
@@ -38,13 +39,19 @@ function Navbar() {
     animate={{y:0}}
     className={`bg-black/50 text-white flex p-5 justify-between backdrop-blur-xl -z-50 ${isScrolled ? `bg-background/90 bg-blur-2xl shadow`:``}`}>
                {/* Logo */}
-        <div className='mt-2'>
-            <h1 className=' from-slate-400 to-slate-900 text-gray-400 hover:text-white px-3'>Ahmed Ur Rehman</h1>
+        <div className=''>
+            <Image 
+            src='/logo.png'
+            alt='logo'
+            width={50}
+            height={50}
+            className='rounded-full'
+            />
         </div>
         
       
       {/* Nav links for larger screens */}
-<div className='hidden md:flex gap-4 mt-2 '>
+<div className='hidden md:flex gap-4 mt-3 '>
   
     {navItems.map((items,index:number) => {
       return (
@@ -61,9 +68,9 @@ function Navbar() {
 
         <div className='hidden md:flex'>
         <ul className='flex '>
-                <Link href='https://github.com/Ahmedkhang'><li><FaGithub className='my-2 text-gray-400 mx-3 hover:text-white text-xl transition-colors'/></li></Link>
-                <Link href='https://www.linkedin.com/in/ahmed-ur-rehman-b98121279/'><li><FaLinkedin className='text-gray-400 mx-3 text-xl my-2 hover:text-white transition-colors' /></li></Link>
-                <Link href='#'><li><FaEnvelope className='text-gray-400 mx-3 text-xl my-2 hover:text-white transition-colors' /></li></Link>
+                <Link href='https://github.com/Ahmedkhang'><li><FaGithub className='my-3 text-gray-400 mx-3 hover:text-white text-xl transition-colors'/></li></Link>
+                <Link href='https://www.linkedin.com/in/ahmed-ur-rehman-b98121279/'><li><FaLinkedin className='text-gray-400 mx-3 text-xl my-3 hover:text-white transition-colors' /></li></Link>
+                
             </ul>
         </div>
 

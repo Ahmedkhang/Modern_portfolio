@@ -21,9 +21,9 @@ function Footer() {
          <div className='text-gray-400'>
             <h3 className='mb-4 text-lg text-white font-semibold'>Links</h3>
             <ul className='space-y-2'>
-                <li className='hover:text-white transition-colors'>Projects</li>
-                <li className='hover:text-white transition-colors'>About</li>
-                <li className='hover:text-white transition-colors'>Contact</li>
+                <Link href={'#projects'}><li className='hover:text-white transition-colors'>Projects</li></Link>
+               <Link href={'#about'}><li className='hover:text-white transition-colors'>About</li></Link>
+                <Link href={'#contact'}><li className='hover:text-white transition-colors'>Contact</li></Link>
                 
             </ul>
          </div>

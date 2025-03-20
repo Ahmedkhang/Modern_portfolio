@@ -21,8 +21,8 @@ export const Contact = () => {
 
         {/* Form */}
         <motion.form
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className='bg-surface p-8 rounded-2xl shadow-lg max-w-2xl mx-auto'
         >
@@ -62,12 +62,17 @@ export const Contact = () => {
         </motion.form>
 
         {/* Social Links */}
-        <div className='flex justify-center gap-6 mt-12'>
+        <motion.div 
+        
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        className='flex justify-center gap-6 mt-12'>
           <a href='#' className='text-content hover:text-primary transition'><FaLinkedin size={24} /></a>
           <a href='#' className='text-content hover:text-primary transition'><FaFacebook size={24} /></a>
           <a href='#' className='text-content hover:text-primary transition'><FaEnvelope size={24} /></a>
           <a href='#' className='text-content hover:text-primary transition'><FaPhone size={24} /></a>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
