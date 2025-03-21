@@ -39,15 +39,29 @@ function Navbar() {
     animate={{y:0}}
     className={`bg-black/50 text-white flex p-5 justify-between backdrop-blur-xl -z-50 ${isScrolled ? `bg-background/90 bg-blur-2xl shadow`:``}`}>
                {/* Logo */}
-        <div className=''>
-            <Image 
+        <motion.div 
+        initial={{
+          opacity:0,
+          y:20
+        }}
+        whileInView={{
+          opacity:1,
+          y:0
+        }}
+        transition={{
+          duration:0.7,
+          delay:0.4
+        }}
+        className='mt-4 font-bold cursor-pointer'>
+            {/* <Image 
             src='/logo.png'
             alt='logo'
             width={50}
             height={50}
             className='rounded-full'
-            />
-        </div>
+            /> */}
+            <h3>Ahmed Ur Rehman</h3>
+        </motion.div>
         
       
       {/* Nav links for larger screens */}
