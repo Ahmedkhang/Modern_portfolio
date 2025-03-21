@@ -68,9 +68,8 @@ export const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         className='flex justify-center gap-6 mt-12'>
-          <a href='#' className='text-content hover:text-primary transition'><FaLinkedin size={24} /></a>
+          <a href='https://www.linkedin.com/in/ahmed-ur-rehman-b98121279/' className='text-content hover:text-primary transition'><FaLinkedin size={24} /></a>
           <a href='#' className='text-content hover:text-primary transition'><FaFacebook size={24} /></a>
-          <a href='#' className='text-content hover:text-primary transition'><FaEnvelope size={24} /></a>
           <a href='#' className='text-content hover:text-primary transition'><FaPhone size={24} /></a>
         </motion.div>
       </div>
