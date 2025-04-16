@@ -6,7 +6,10 @@ import { FaNode, FaReact } from "react-icons/fa";
 import { SiD3Dotjs, SiFirebase, SiGraphql, SiNextdotjs, SiTailwindcss, SiTypescript, SiSanity } from "react-icons/si";
 import Image from "next/image";
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
+import { FaCss3Alt } from "react-icons/fa";
 import Link from 'next/link';
+// import { link } from 'fs';
+import { FaHtml5 } from "react-icons/fa";
 
 const Main = () => {
   const projects = [
@@ -33,6 +36,16 @@ const Main = () => {
       ],
       link: 'https://blogs-site-amcn.vercel.app/',
       image: '/portfolio6.webp'
+    },
+    {
+      title: 'Coffee Shop',
+      description: 'A coffee shop website for coffee lovers',
+      tech:[
+        {name:'HTML',icon:<FaHtml5 />, color: 'white'},
+        {name:'CSS',icon:<FaCss3Alt />, color: 'white'},
+      ],
+      link: 'https://vibe-coding-websites.vercel.app/',
+      image:'/coffe_shop.png'
     }
   ]
 
