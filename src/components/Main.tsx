@@ -45,7 +45,7 @@ const Main = () => {
         {name:'CSS',icon:<FaCss3Alt />, color: 'white'},
       ],
       link: 'https://vibe-coding-websites.vercel.app/',
-      image:'/coffe_shop.png'
+      image:'/portfolio6.webp'
     }
   ]
 
