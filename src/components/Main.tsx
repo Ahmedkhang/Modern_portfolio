@@ -25,6 +25,19 @@ const Main = () => {
       link: 'https://restaurant-web-hackathon-r3ju.vercel.app',
       image: '/portfolio6.webp'
     },
+
+    {
+      title: 'Chairs E-commerce Web App',
+      description: 'A Chairs Selling Site',  
+      tech: [
+        { name: 'Next JS', icon: <SiNextdotjs />, color: 'white' },
+        { name: 'TypeScript', icon: <SiTypescript />, color: '#06B6D4' },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
+        { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
+      ],
+      link: 'https://chairs-e-commerce-v3l3.vercel.app/',
+      image: '/portfolio6.webp'
+    },
     {
       title: 'TechBlog - Blog App',
       description: 'Blog App For Tech Enthusiasts',
