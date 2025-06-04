@@ -46,6 +46,18 @@ const Main = () => {
       ],
       link: 'https://vibe-coding-websites.vercel.app/',
       image:'/portfolio6.webp'
+    },
+    
+    {
+      title: 'Next JS Mini Projects',
+      description: 'Mini Projects in Next JS',
+      tech:[
+        { name: 'Next JS', icon: <SiNextdotjs />, color: 'white' },
+        { name: 'TypeScript', icon: <SiTypescript />, color: '#06B6D4' },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
+      ],
+      link: 'https://mini-next-js-projects-liart.vercel.app/',
+      image:'/portfolio6.webp'
     }
   ]
 
