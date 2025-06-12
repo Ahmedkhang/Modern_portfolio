@@ -13,18 +13,18 @@ import { FaHtml5 } from "react-icons/fa";
 
 const Main = () => {
   const projects = [
-    {
-      title: 'FoodTuck - Food Delivery Web App',
-      description: 'A food delivery app',  
-      tech: [
-        { name: 'Next JS', icon: <SiNextdotjs />, color: 'white' },
-        { name: 'TypeScript', icon: <SiTypescript />, color: '#06B6D4' },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
-        { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
-      ],
-      link: 'https://restaurant-web-hackathon-r3ju.vercel.app',
-      image: '/portfolio6.webp'
-    },
+    // {
+    //   title: 'FoodTuck - Food Delivery Web App',
+    //   description: 'A food delivery app',  
+    //   tech: [
+    //     { name: 'Next JS', icon: <SiNextdotjs />, color: 'white' },
+    //     { name: 'TypeScript', icon: <SiTypescript />, color: '#06B6D4' },
+    //     { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
+    //     { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
+    //   ],
+    //   link: 'https://restaurant-web-hackathon-r3ju.vercel.app',
+    //   image: '/portfolio6.webp'
+    // },
 
     {
       title: 'Chairs E-commerce Web App',
