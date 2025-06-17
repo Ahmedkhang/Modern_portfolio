@@ -48,7 +48,7 @@ const Main = () => {
         { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
       ],
       link: 'https://blogs-site-amcn.vercel.app/',
-      image: '/portfolio6.webp'
+      image: '/blog.PNG'
     },
     {
       title: 'Coffee Shop',
@@ -58,7 +58,7 @@ const Main = () => {
         {name:'CSS',icon:<FaCss3Alt />, color: 'white'},
       ],
       link: 'https://vibe-coding-websites.vercel.app/',
-      image:'/portfolio6.webp'
+      image:'/coffe_shop.PNG'
     },
     
     {
