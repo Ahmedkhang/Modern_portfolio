@@ -6,16 +6,16 @@ import Image from 'next/image'
 
 export const Skills = () => {
   const skills = [
-    { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", proficiency: 90 },
-    { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", proficiency: 85 },
-    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", proficiency: 80 },
-    { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", proficiency: 75 },
+    { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"},
+    { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", proficiency: 75 },
+    { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", proficiency: 70 },
+    { name: "TypeScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", proficiency: 60 },
     { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", proficiency: 50 },
-    { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", proficiency: 80 },
-    { name: "React", logo: "/react-original.svg", proficiency: 85 },
-    { name: "Tailwind", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", proficiency: 90 },
+    { name: "Next.js", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg", proficiency: 70 },
+    { name: "React", logo: "/react-original.svg", proficiency: 55 },
+    { name: "Tailwind", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", proficiency: 80 },
     { name: "ShadCN", logo: "/shadcn.jpg", proficiency: 70 },
-    { name: "GitHub", logo: "/github.svg", proficiency: 75 },
+    { name: "GitHub", logo: "/github.svg", proficiency: 60 },
     { name: "Sanity", logo: "/sanity.webp", proficiency: 65 },
   ];
   
@@ -58,7 +58,7 @@ export const Skills = () => {
               whileHover={{
                 scale:1.05
               }}
-              className='max-w-[190px] bg-surface overflow-hidden border-2 border-gray-400 rounded-3xl h-auto'>
+              className='max-w-[220px] bg-surface overflow-hidden border-2 border-gray-400 rounded-3xl h-[200px]'>
                  {/* Image */}
               <motion.div
                initial={{
@@ -71,7 +71,7 @@ export const Skills = () => {
                }}
                 whileHover={{ scale: 1.05 }}
                  transition={{ duration: 0.2 }}
-           className='h-[200px] relative'
+           className='h-[170px] relative'
                                  >
                                    <Image 
                                      src={items.logo}
@@ -84,20 +84,6 @@ export const Skills = () => {
                                    />
                                    
               </motion.div>
-              <motion.p 
-              initial={{
-                opacity:0,
-                x:0
-              }}
-              whileInView={{
-                opacity:1,
-                x:62
-              }}
-              transition={{
-                duration:0.6,
-                delay:0.4
-              }}
-              className='text-content  mb-3 font-bold'>{items.proficiency}%</motion.p>
               <p
               
                className='text-content text-center font-bold mb-3'>{items.name}</p>
