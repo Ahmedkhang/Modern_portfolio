@@ -36,7 +36,7 @@ const Main = () => {
         { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
       ],
       link: 'https://chairs-e-commerce-v3l3.vercel.app/',
-      image: '/portfolio6.webp'
+      image: '/chairs_ecommerce.PNG'
     },
     {
       title: 'TechBlog - Blog App',
@@ -70,7 +70,7 @@ const Main = () => {
         { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
       ],
       link: 'https://mini-next-js-projects-liart.vercel.app/',
-      image:'/portfolio6.webp'
+      image:'/mini_projects.PNG'
     }
   ]
 
