@@ -36,7 +36,7 @@ const Main = () => {
         { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
       ],
       link: 'https://tech-shop-ruddy.vercel.app/',
-      image: '/chairs_ecommerce.PNG'
+      image: '/tech shop.PNG'
     },
     {
       title: 'TechBlog - Blog App',
