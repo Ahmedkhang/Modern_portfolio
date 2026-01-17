@@ -27,15 +27,15 @@ const Main = () => {
     // },
 
     {
-      title: 'Chairs E-commerce Web App',
-      description: 'A Chairs Selling Site',  
+      title: 'Tech Shop E-commerce Web App',
+      description: 'An Online Tech Shop where people can buy Moibiles and laptops',  
       tech: [
         { name: 'Next JS', icon: <SiNextdotjs />, color: 'white' },
         { name: 'TypeScript', icon: <SiTypescript />, color: '#06B6D4' },
         { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
         { name: 'Sanity', icon: <SiSanity />, color: '#E75C17' },
       ],
-      link: 'https://chairs-e-commerce-v3l3.vercel.app/',
+      link: 'https://tech-shop-ruddy.vercel.app/',
       image: '/chairs_ecommerce.PNG'
     },
     {
